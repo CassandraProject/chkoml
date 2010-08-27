@@ -67,5 +67,5 @@ Contributions to chkoml are welcome.
 
 The following people have contributed patches to close_list - thanks!
 
-* [Duc Do](duc@thedos.org)
+* Duc Do (duc@thedos.org)
 * [Jeremy Milum](http://github.com/jmilum)
