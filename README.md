@@ -7,10 +7,10 @@ when they are closed as well as DM screens that crash or are not closed
 down properly. Using som, one can see multiple OM lists with
 2 objects in them, like this:
 
-000 ALMSTATE04WP01                   Y    -01 000 00000001  0F24:FD10
-    Scanning    0026                 L  Y -01 -1 0000000003 0000 0000
-001 ALMCNT04WP01                     Y    -01 001 00000001  0F24:FD30
-    Scanning    0026                 L  Y -01 -1 0000003043 0000 0000
+    000 ALMSTATE04WP01                   Y    -01 000 00000001  0F24:FD10
+        Scanning    0026                 L  Y -01 -1 0000000003 0000 0000
+    001 ALMCNT04WP01                     Y    -01 001 00000001  0F24:FD30
+        Scanning    0026                 L  Y -01 -1 0000003043 0000 0000
 
 Eventually, the accumulation of these orphaned lists results in non-
 connected data (displayed as cyan) on graphics and overlays. The
@@ -29,6 +29,12 @@ lists left behind by long-gone Alarm Display screens, thereby
 enhancing the performance of the Sun workstation without having to
 resort to rebooting it.
 
+## Installation ##
+
+Clone the repo from GitHub:
+
+    git clone git://github.com/CassandraProject/chkoml.git
+
 ## Dependencies ##
 
 [close_list](http://github.com/CassandraProject/close_list) is required
@@ -37,11 +43,8 @@ You can get that by cloning the repo from GitHub:
 
     git clone git://github.com/CassandraProject/close_list.git
 
-## Installation ##
-
-Cloning the repo from GitHub:
-
-    git clone git://github.com/CassandraProject/chkoml.git
+The chkoml.sh script will need to be edited so that the `CLOSEOM` variable
+points to the location of the compiled close_list program
 
 ## Command line operation ##
 
