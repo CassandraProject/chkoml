@@ -21,8 +21,8 @@ The subject of orphaned OM lists came up on the foxboro discussion
 list, and [Jeremy Milum]](http://github.com/jmilum) contributed a C program,
 [close_list](http://github.com/CassandraProject/close_list), that can be used
 to close OM lists, as well as his shell script, check_lists.sh, that detects
-the orphaned OM lists. This script is a derivation of his work with 
-more ease-of-use features added.
+the orphaned OM lists. This script is a derivation of his work by  
+[Duc Do](http://github.com/ducdo) with more ease-of-use features added.
 
 This script file can be used to selectively delete the orphaned OM
 lists left behind by long-gone Alarm Display screens, thereby
@@ -65,7 +65,7 @@ Contributions to chkoml are welcome.
 
 ## Thanks ##
 
-The following people have contributed patches to close_list - thanks!
+The following people have contributed patches to chkoml - thanks!
 
-* Duc Do (duc@thedos.org)
+* [Duc Do](http://github.com/ducdo)
 * [Jeremy Milum](http://github.com/jmilum)
